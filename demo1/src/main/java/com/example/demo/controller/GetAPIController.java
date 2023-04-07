@@ -137,8 +137,4 @@ public class GetAPIController {
 		return userRequest;
 	}
 	
-	
-	
-	
-	
 }// end of class
