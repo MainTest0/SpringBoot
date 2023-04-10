@@ -42,22 +42,12 @@ public class PostAPIController {
 	}
 	
 	// GET : 주소 : path
-	@GetMapping("/chat/{{message}")
+	@GetMapping("/chat/{message}")
 	public String message(@PathVariable String message) {
 		
 		System.out.println("message : " + message);
 		
 		return message;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 } // end of class
