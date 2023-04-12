@@ -1,0 +1,15 @@
+server: 
+  port: 8080
+  servlet: 
+    encoding: 
+      charset: UTF-8
+      force: true
+# 서버가 부모 콜론 다음 무조건 한칸 띄워
+# 이렇게 쓰는게 yml 문법 형식
+
+# Spring JSP 사용 설정
+spring: 
+  mvc: 
+    view: 
+      prefix: /WEB-INF/view/
+      suffix: .jsp

@@ -3,15 +3,12 @@ package com.example.demo6.handler;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.websocket.OnMessage;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.BindException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.example.demo6.dto.CustomError;
