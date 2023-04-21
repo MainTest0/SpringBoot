@@ -1,0 +1,31 @@
+@charset "UTF-8";
+nav {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 170px;
+	border: 1px solid black;
+	height: 300px;
+}
+#all_nav {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+#all_li_nav {
+	display: flex;
+}
+
+li {
+	margin: 2px;
+}
+
+.bold_class {
+	font-weight: bold;
+}
+
+#all_li_nav span{
+	margin-left: 70px;
+}

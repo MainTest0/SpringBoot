@@ -1,0 +1,47 @@
+@charset "UTF-8";
+section {
+	width: 730px;
+}
+
+.flex_side {
+	display: flex;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+img {
+	width: 180px;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.images_div {
+	display: flex;
+}
+
+#imgaes-div-date {
+	height: 100px;
+}
+
+.images_div div div {
+	width: 180px;
+	flex-direction: column;
+	margin-right: 30px;
+	display: flex;
+}
+
+}
+.images_div div div div {
+	line-height: 2;
+}
+
+}
+#imgaes-div-date {
+	height: 30px;
+}

@@ -5,7 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link href="../css/header.css" rel="stylesheet" type="text/css">
+<link href="../css/nav.css" rel="stylesheet" type="text/css">
+<link href="../css/section.css" rel="stylesheet" type="text/css">
+<link href="../css/footer.css" rel="stylesheet" type="text/css">
 </head>
 <style>
 * {
@@ -18,107 +24,9 @@ body {
 	height: 100vh;
 }
 
-header {
-	width: 1000px;
-	background-color: green;
-	padding: 20px;
-}
-
-nav {
-	margin: 20px;
-	display: flex;
-	flex-direction: column;
-	border: 1px solid black;
-	border-radius: 10px;
-	width: 170px;
-	border: 1px solid black;
-	height: 300px;
-}
-
-#all_nav {
-	display: flex;
-	margin-bottom: 5px;
-}
-
-#all_li_nav {
-	display: flex;
-}
-
-li {
-	margin: 2px;
-}
-
-section {
-	width: 730px;
-}
-
-.bold_class {
-	font-weight: bold;
-}
-
-.flex_side {
-	display: flex;
-}
-
-.container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-img {
-	width: 180px;
-	height: 180px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.images_div {
-	display: flex;
-}
-
-#imgaes-div-date {
-	height: 100px;
-}
-
-.images_div div div {
-	width: 180px;
-	flex-direction: column;
-	margin-right: 30px;
-	display: flex;
-}
-
-}
-.images_div div div div {
-	line-height: 2;
-}
-
-}
-#imgaes-div-date {
-	height: 30px;
-}
-
-#all_li_nav span{
-	margin-left: 70px;
-}
-footer{
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	margin: 20px;
-}
-
 </style>
 <body>
-	<header>
-		<div>
-			<h1>Green's Blog ${principal}
-			<span class="material-symbols-outlined"> settings </span>
-			</h1>
-			
-		</div>
-	</header>
+	<jsp:include page="header.jsp"></jsp:include>
 	<div class="flex_side">
 		<nav>
 			<ul id="all_nav">
